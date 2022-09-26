@@ -27,4 +27,4 @@
 # print(d['k1']['k2'])
 # d = {'k1':[1,2,{'k2':['this is tricky',{'togh':[1,2,['hello']]}]}]}
 # print(d['k1'][2]['k2'][1]['togh'][2][0])
-
+df
