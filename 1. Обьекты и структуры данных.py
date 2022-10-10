@@ -114,3 +114,40 @@ Booleans bool Логическое значение - True (истино) или
 # print(list)
 # new_list.reverse()
 # print(new_list)
+
+# Словари (Dictonaries)
+
+# my_dict = {'key1':'value1','key2':'value2'}
+# print(my_dict['key1'])
+# prices_lookup = {'apple':2.99,'orange':1.99}
+# print(prices_lookup['orange'])
+
+# d = {'k1':123,'k2':[0,1,2],'k3':{'insideKey':100}}
+# print(d['k2'])
+# print(d['k2'][1])
+# print(d['k3'])
+# print(d['k3']['insideKey'])
+# d = {'key1':['a','b','c']}
+# mylist = d['key1']
+# letter = mylist[2]
+# print(letter)
+# print(d['key1'][2].upper())
+
+# Кортежи(Tuples)-Неизменны
+
+t = (1,2,3)
+mylist = [1,2,3]
+
+# Множества Sets - это  неупорядоченные наботы уникальных элементов.
+
+# myset = set()
+# myset.add(1)
+# print(myset)
+# myset.add(2)
+# print(myset)
+#
+# mylist = [1,2,3,4,5,1,2,4,5,2,3]
+# print(set(mylist))
+
+#Логические значения Булиан Boolean -позволяет выполнять операции True,False
+
