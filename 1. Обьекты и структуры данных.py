@@ -73,3 +73,44 @@ Booleans bool Логическое значение - True (истино) или
 # print(x.split('i'))
 
 #  Форматирование Вывода для строк
+
+# my_name = 'Vlad'
+# print('Hello ' + my_name)
+#
+# print('Эта строка была{}'.format('добавлена'))
+# print('У меня есть {2} {1} {0}'.format('вкусное','красное','яблоко'))
+# print('У меня есть {v} {k} {y}'.format(v ='вкусное',k = 'красное',y = 'яблоко'))
+
+# Форматирование Float с помощью "{value:width.precision f}"
+
+# result = 100/77
+# # print(result)
+# print('{}'.format(result))
+# print('Результат: {r}'.format(r=result))
+# print('Результат: {r:1.3f}'.format(r=result))
+# name = 'Vlad'
+# print('Имя:{}'.format(name))
+# print(f'Имя: {name}')
+
+# Списки [1,2,3,4,5]
+
+# my_lyst = [1,2,3]
+# my_list = ['String',100,23.2]
+# print(len(my_list))
+# my_lyst = ['one','two','three']
+# print(my_lyst[1:])
+# my_lyst[0] = 'Hallo'
+# print(my_lyst)
+# my_lyst.append('SIX')
+# print(my_lyst)
+# print(my_lyst.pop())
+# print(my_lyst)
+# print(my_lyst.pop(0))
+# print(my_lyst)
+
+# new_list = ['a','b','x','g','d']
+# new_list.sort()
+# list = new_list
+# print(list)
+# new_list.reverse()
+# print(new_list)
