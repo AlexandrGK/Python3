@@ -92,7 +92,7 @@ Booleans bool Логическое значение - True (истино) или
 # print('Имя:{}'.format(name))
 # print(f'Имя: {name}')
 
-# Списки [1,2,3,4,5]
+# Списки [1,2,3]
 
 # my_lyst = [1,2,3]
 # my_list = ['String',100,23.2]
@@ -135,10 +135,10 @@ Booleans bool Логическое значение - True (истино) или
 
 # Кортежи(Tuples)-Неизменны
 
-t = (1,2,3)
-mylist = [1,2,3]
+# t = (1,2,3)
+# mylist = [1,2,3]
 
-# Множества Sets - это  неупорядоченные наботы уникальных элементов.
+# Множества Sets - это  неупорядоченные наборы уникальных элементов.
 
 # myset = set()
 # myset.add(1)
@@ -151,3 +151,31 @@ mylist = [1,2,3]
 
 #Логические значения Булиан Boolean -позволяет выполнять операции True,False
 
+# print(1>2)
+# print(1 == 1)
+
+# Ввод- вывод для файлов
+
+# %%writefile myfile.txt
+# Первая строка
+# Вторая строка
+# Writing mylist.txt
+# myfile = open('myfile.txt')
+# print(myfile.read())
+# print(myfile.seek(0))
+# print(myfile.read())
+# Управление доступа к файлам
+# 'r' - тение
+# 'w' - запись
+# 'a' - добавление
+# 'r+' - чтение и запись
+# 'w+' - запись и чтение
+# with open('myfile.txt',mode='a') as myfile:
+#     contents = myfile.read()
+# with open('myfile.txt',mode='a') as myfile:
+#     print(myfile.write('Hallo'))
+# with open('myfile.txt',mode='r') as myfile:
+#     print(myfile.read())
+#     # Содание и запись в файл
+# with open('Hallo.txt',mode='w') as myfile:
+#     myfile.write('NewFile')
